@@ -79,3 +79,10 @@ body{
     text-transform: uppercase;
     transform: translateX(-50%) translateY(3px);
 }
+@media screen and (max-width:600px){
+    #timer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
